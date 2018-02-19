@@ -55,6 +55,9 @@ test
 	usermod -aG wheel *username* (add user to the wheel group)
 	chage -d 0 <username> (make sure the user changes their password on login)
 	
+**file system**
+
+fuesr -cv <mountpoint> (check what processes a mount is using, useful when umounting)
 
 **grep**
 
